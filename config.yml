@@ -16,3 +16,13 @@
 # - 'quit': exit Lazygit
 notARepository: 'skip'
 
+
+# ----------------------
+# Config relating to git
+# ----------------------
+git:
+  # If not "none", lazygit will automatically forward branches to their upstream after fetching.
+  # Applies to branches that are not the currently checked out branch, and only to those that are strictly behind their upstream (as opposed to diverged).
+  # Possible values: 'none' | 'onlyMainBranches' | 'allBranches'
+  autoForwardBranches: none
+
